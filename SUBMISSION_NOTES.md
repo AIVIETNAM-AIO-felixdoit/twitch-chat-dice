@@ -9,7 +9,7 @@ Written for: the hackathon entrant filling out the Devpost form.
 - [ ] Test the bot with a real Twitch test channel and record a short video of it.
 - [ ] Record a demo video under 3 minutes. Show a `!roll` in chat, the overlay updating, and a short look at the Codex thread.
 - [ ] Upload the video to YouTube as public or unlisted. Do not use copyrighted music.
-- [ ] Run `/status` in the Codex thread where most of the build happened and copy the session ID.
+- [x] Run `/status` in the Codex thread where most of the build happened and copy the session ID. Session ID: `01a19dfa-c1a9-7781-8b13-c611ee07c070`
 - [ ] On Devpost, click "Start project", add the repo URL, video URL, description, and session ID, then click Submit. A saved draft does not count.
 
 ## Project description (draft)
