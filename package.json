@@ -1,0 +1,17 @@
+{
+  "name": "twitch-chat-dice",
+  "version": "1.0.0",
+  "description": "Twitch chat dice roller with a live stream overlay, built with OpenAI Codex.",
+  "main": "src/bot.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/bot.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "tmi.js": "1.8.5"
+  }
+}
