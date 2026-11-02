@@ -5,7 +5,7 @@ Written for: the hackathon entrant filling out the Devpost form.
 ## Checklist
 
 - [ ] Deadline: 2 Nov 2026, 2:00 PM PT, which is 3 Nov 2026, 5:00 AM GMT+7. Check the countdown on the Devpost page.
-- [ ] Create the GitHub repo and push this folder. Make sure `.env` is not included.
+- [x] Create the GitHub repo and push this folder. `.env` is not included. Repo: https://github.com/AIVIETNAM-AIO-felixdoit/twitch-chat-dice
 - [ ] Test the bot with a real Twitch test channel and record a short video of it.
 - [ ] Record a demo video under 3 minutes. Show a `!roll` in chat, the overlay updating, and a short look at the Codex thread.
 - [ ] Upload the video to YouTube as public or unlisted. Do not use copyrighted music.
@@ -18,7 +18,9 @@ Chat Dice brings tabletop-style dice rolling into Twitch chat. Viewers type `!ro
 
 It is built for dice and party streams, where chat can take part in the game without any setup. A per-viewer cooldown and input limits keep it from being spammed.
 
-Technical summary: Node.js, tmi.js for Twitch chat, a small HTTP server that serves the overlay and a JSON state endpoint, and a dice module with unit tests that does not depend on Twitch. [TODO: describe how you used Codex in your own words: the prompts, what Codex generated, and what you changed or decided yourself. Only claim what happened in your Codex thread.]
+Technical summary: Node.js, tmi.js for Twitch chat, a small HTTP server that serves the overlay and a JSON state endpoint, and a dice module with unit tests that does not depend on Twitch. How Codex was used (from the Codex thread): the initial scaffold was created before the Codex thread started. In the Codex thread, Codex read the handoff file, reviewed the bot and dice modules, and ran the original seven tests successfully. The entrant chose a `!roll reset` command for streamers and moderators. Codex implemented it using Twitch moderator and broadcaster tags, fixed the overlay label after reset, added reset tests against the local HTTP endpoint, and tightened the `!roll` command matcher so `!rolls` is not matched. Live Twitch connectivity was not verified in the Codex thread.
+
+[Before submitting: confirm this matches your own Codex thread. Add the prompts you used and what you changed yourself.]
 
 ## Video outline (under 3 minutes)
 
