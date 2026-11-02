@@ -1,5 +1,16 @@
 # Chat Dice: Twitch chat dice roller with a stream overlay
 
+![Node.js](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)
+![Tests](https://img.shields.io/badge/tests-8%20passing-brightgreen)
+![Twitch chat](https://img.shields.io/badge/twitch-chat%20bot-9146ff)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue)
+
+| Twitch chat | Stream overlay |
+| --- | --- |
+| ![Chat Dice replying to !roll commands in Twitch chat](docs/demo-chat.png) | ![Overlay after !roll reset](docs/demo-overlay.png) |
+
+Demo video: https://youtu.be/G-LKKU3CzEI
+
 Viewers type `!roll` in Twitch chat to roll dice for tabletop and party streams. The bot posts the result in chat and shows the latest roll on a stream overlay.
 
 Built for the Codex x TwitchCon Hackathon with OpenAI Codex.
@@ -69,3 +80,7 @@ The initial scaffold was created with Claude. In this Codex thread, Codex read t
 Live Twitch connectivity has not been verified in this thread.
 
 The Codex session ID for the build thread is listed in the Devpost submission.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
